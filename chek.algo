@@ -1,0 +1,38 @@
+algorithme ex
+procedure vector (v1,v2)
+var 
+v1:array to integer [3];
+v2:array to integer [3];
+x,i,som : integer;
+begin
+som=0,x=0,
+for (i from 1 to v1.length-1 step1)do 
+v=v1[i]*v2[i]; 
+som=som+v;
+end for 
+write (som)
+end .
+
+algorithme ex2
+var 
+y=boolean ;
+begin 
+if (vector(v1,v2)=0)then 
+write('les vecteur sont orthogono')
+else write ('les vecteur  ne sont pas orthogono') ;
+end if 
+end .
+
+function  vector (v1,v2):integer;
+var 
+v1:array to integer [3];
+v2:array to integer [3];
+x,i,som : integer;
+begin
+som=0,x=0,
+for (i from 1 to v1.length-1 step1)do 
+v=v1[i]*v2[i]; 
+som=som+v;
+end for 
+write (som)
+end .
